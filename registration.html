@@ -1,0 +1,93 @@
+<html>
+	<head>
+	<meta http-equiv="Content Type" content="text/html; charset=utf-8">
+	<title> Скачать фильмы, программы и игры.</title>
+	</head>
+	<body bgcolor=white text=black>
+		<a href="index.html"><img src="images/logo.jpg" width=1650 height=120 border=3 alt="Это шапка сайта"></a>
+		<table width="90%">
+		<tr>
+		<td valign="top">
+		<h2>Меню</h2>
+		<ul>
+			<li><a href="index.html">Домашняя страница</a></li>
+			<li><a href="program.html">Программы</a></li>
+			<li><a href="games.html">Игры</a></li>
+			<li><a href="movies.html">Фильмы</a></li>
+		</ul>
+		</td>
+		<td>
+		<div align=center>
+			<h1>Регистрация</h1>
+			<form action="request.php" method="post">
+			<table>
+			<tr>
+			<td>
+				<label>Логин:</label>
+			</td>
+			<td>
+				<input type="text" name="name">
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<label>Пароль:</label>
+			</td>
+			<td>
+				<input type="password" name="pass">
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<label>Повторите пароль:</label>
+			</td>
+			<td>
+				<input type="password" name="pass">
+			</td>
+			</tr>
+			</table>
+			<table>
+			<tr>
+			<td>
+				<label>Выберите обычный аккаунт или VIP аккаунт:</label>
+			</td>
+			<td>
+				<input type="radio" name="account" value="econom">Обычный
+				<input type="radio" name="account" value="vip">VIP
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<label>Выберите любимое число:</label>
+			</td>
+			<td>
+				<select name="numbers">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+				</select>
+			</td>
+			</tr>
+				</table>
+				<label>Ваши интересы:</label>
+				</br>
+				<textarea name="message" cols="30" rows="8"> </textarea>
+				</br>
+				<label>Согласны с нашими условиями:</label>
+				<input type="checkbox" name="allow">
+				</br>
+				<input type="submit" value="Подтвердить">
+			</form>
+		</div>
+		</td>
+		</tr>
+		</table>
+	</body>
+</html>
