@@ -1,0 +1,34 @@
+body {
+  background: url(../images/bg.jpg) repeat;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  border: 2px solid rebeccapurple;
+  border-radius: 20px;
+}
+
+h2:hover {
+    border: 4px solid gold;
+}
+
+.text1 {
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 400px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.menu a:hover {
+    font-size: 35px;
+    color: red;
+}

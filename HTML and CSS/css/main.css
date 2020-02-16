@@ -1,0 +1,18 @@
+@font-face {
+    font-family: BadScript;
+    src: url("../fonts/BadScript.woff2") format(woff2), url("../fonts/BadScript.woff") format(woff);
+}
+
+body {
+    background: url(../images/bg.jpg) repeat;
+}
+
+h3 {
+    font-family: BadScript;
+    text-align: center;
+    color: red;
+}
+div {
+    text-align: center;
+    line-height: 25px;
+}
