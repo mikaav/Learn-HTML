@@ -21,6 +21,7 @@ h2:hover {
 footer {
     text-align: center;
     margin-top: 400px;
+    margin-bottom: 20px;
 }
 
 .menu a {
@@ -31,4 +32,44 @@ footer {
 .menu a:hover {
     font-size: 35px;
     color: red;
+}
+
+.block1 {
+    background-color: red;
+    border: 1px solid green;
+    float: left;
+    margin-left: 25px;
+}
+
+.block2 {
+    background-color: yellow;
+    border: 1px solid green;
+    float: left;
+}
+
+.block4 {
+    background-color: peru;
+    border: 1px solid green;
+    float: right;
+    margin-right: 25px;
+}
+
+.block3 {
+    background-color:blue;
+    border: 1px solid green;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu1 {
+    list-style:url(../images/icon2.png);
+    font-size: 25px;
+}
+
+.menu1:hover {
+    font-size: 30px;
+    color: violet;
 }
